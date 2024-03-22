@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head {
+  width: 50%;
+}
+.head h1 {
+  font-weight: 500;
+}
+.home {
+  padding: 50px;
+}
+@media (max-width: 768px) {
+  .home {
+    padding: 0;
+  }
+  .head h1 {
+    font-size: 200;
+    font-weight: 500;
+  }
+}
